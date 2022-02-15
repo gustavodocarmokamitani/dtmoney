@@ -5,7 +5,7 @@ export const GlobalStyle  = createGlobalStyle`
         --backgroud: #F0F2F5;
         --red: #E62E4D;
         --blue: #5429CC;
-        
+
         --blue-light: #6933ff;
 
         --green: #33CC95;
@@ -34,6 +34,16 @@ export const GlobalStyle  = createGlobalStyle`
     body {
         background: var(--backgroud);
         -webkit-font-smoothing: antialiased;
+        font-family: "Poppins", sans-serif;
+    }
+
+    border-style, input, textarea, button {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+
+    h1, h2, h3, h4, h5, h6, strong {
+        font-weight: 600;
     }
 
     button {
